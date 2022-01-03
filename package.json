@@ -12,7 +12,9 @@
     "prettier": "prettier --write \"src/**/*.ts\"",
     "commit:comment": "引导设置规范化的提交信息",
     "commit": "cz",
-    "test": "echo test"
+    "test": "echo test",
+    "build:comment": "构建",
+    "build": "npm run eslint && npm run prettier && rm -rf lib && tsc --build"
   },
   "keywords": [],
   "author": "",
@@ -26,6 +28,7 @@
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.6.0",
     "husky": "^7.0.4",
+    "lint-staged": "^12.1.5",
     "prettier": "^2.5.1",
     "ts-node-dev": "^1.1.8",
     "typescript": "^4.5.4"
