@@ -1,6 +1,6 @@
 console.log(123)
 
-const a = '3'
+const a = "3";
 
 
-console.log(345)
+console.log(345);
