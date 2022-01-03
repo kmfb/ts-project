@@ -11,7 +11,8 @@
     "prettier:comment": "自动格式化 src 目录下的所有 .ts 文件",
     "prettier": "prettier --write \"src/**/*.ts\"",
     "commit:comment": "引导设置规范化的提交信息",
-    "commit": "cz"
+    "commit": "cz",
+    "test": "echo test"
   },
   "keywords": [],
   "author": "",
@@ -24,6 +25,7 @@
     "@typescript-eslint/parser": "^5.8.1",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.6.0",
+    "husky": "^7.0.4",
     "prettier": "^2.5.1",
     "ts-node-dev": "^1.1.8",
     "typescript": "^4.5.4"
